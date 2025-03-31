@@ -6,7 +6,7 @@ The Online Pharmacy Web Application provides a platform for users to browse and 
 
 ---
 
-**🔑 FEATURES**
+**  🔑FEATURES **
 
 ### **👤 User**
 - **Login & Signup**: Secure user authentication.
