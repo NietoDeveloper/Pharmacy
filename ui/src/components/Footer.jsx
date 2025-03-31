@@ -6,7 +6,7 @@ const Footer = () => {
 
 
             <footer className="text-black p-[7px] text-center mt-6">
-                &copy; 2024 Carewell Pharmacy. All rights reserved.
+                &copy; 2025 Manuel Nieto  All rights reserved.
             </footer>
 
         </>
