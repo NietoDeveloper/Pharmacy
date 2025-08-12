@@ -1,5 +1,5 @@
-Pharmacy UI
-Overview
+# Pharmacy UI
+## Overview
 Pharmacy UI is the frontend of an application for managing pharmacy services, built by Manuel Nieto, Software Developer. It provides a modern, responsive interface for users to interact with pharmacy-related features.
 Technologies
 
@@ -9,16 +9,16 @@ Vite: Fast build tool for development
 Tailwind CSS: Utility-first CSS framework
 Docker: Containerization for consistent deployment
 
-Features
+## Features
 
 Responsive and intuitive user interface
 Product browsing and selection
 Clean design with Tailwind CSS
 Containerized setup for easy deployment
 
-Installation
+## Installation
 
-Clone the repository:git clone <repository-url>
+Clone the repository:git clone <https://github.com/NietoDeveloper/Pharmacy/tree/main/ui>
 
 
 Navigate to the project directory:cd pharmacy-ui
@@ -46,4 +46,6 @@ Contributions are welcome! Fork the repository and submit a pull request.
 License
 MIT License
 Contact
-Created by Manuel Nieto, Software Developer. Reach out via GitHub.
+Created by 
+
+# Manuel Nieto, Software Developer
