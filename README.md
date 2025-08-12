@@ -1,6 +1,6 @@
-# 🏥 **PHARMACY WEB APP**
+# 🏥 **PHARMACY**
 
-**📄 PROJECT OVERVIEW**
+**📄 OVERVIEW**
 
 The Online Pharmacy Web Application provides a platform for users to browse and purchase medicines digitally. Built with the MERN stack (MongoDB, Express.js, React, and Node.js) and Docker for containerization, the app offers a seamless experience for users to manage accounts, place orders, and contact support. Admins have specific roles, including product, prescription, and message management. Admin login is restricted by a secure admin passphrase.
 
@@ -50,3 +50,4 @@ The Online Pharmacy Web Application provides a platform for users to browse and 
 
 ---
 
+## Manuel Nieto Software Developer
