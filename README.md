@@ -44,7 +44,7 @@ The Online Pharmacy Web Application provides a platform for users to browse and 
 
 **🚀 GETTING STARTED**
 
-1. **Clone the Repository**: `git clone <repository-url>`
+1. **Clone the Repository**: `git clone <https://github.com/NietoDeveloper/Pharmacy>`
 2. **Docker Setup**: `docker-compose up --build`
 3. **Accessing the Application**: Once the containers are up, visit `localhost:3001` to access the app.
 
