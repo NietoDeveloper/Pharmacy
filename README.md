@@ -1,4 +1,4 @@
-# 🏥 **PHARMACY**
+# 🏥 **Pharmacy**
 
 **📄 OVERVIEW**
 
