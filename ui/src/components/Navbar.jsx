@@ -35,7 +35,7 @@ const Navbar = () => {
         <nav className="text-teal-600 p-3 sticky top-0 z-50 ">
     <div className=" bg-teal-50 container mx-auto flex justify-between items-center">
         <div className=" font-bold text-2xl ml-4 md:ml-10">
-            Carewell Pharmacy
+            Pharmacy
         </div>
         <ul className="flex space-x-4 md:space-x-8 mr-4 ">
             <li><Link to="/" className=" font-bold text-sm md:text-lg hover:text-opacity-75 hover:underline hover:decoration-green-600">Home</Link></li>
