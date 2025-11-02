@@ -1,4 +1,5 @@
 # Pharmacy UI
+
 ## Overview
 Pharmacy UI is the frontend of an application for managing pharmacy services. It provides a modern, responsive interface for users to interact with pharmacy-related features.
 
@@ -47,4 +48,4 @@ Contributions are welcome! Fork the repository and submit a pull request.
 
 Created by 
 
-# Manuel Nieto, Software Developer
+# Manuel Nieto
