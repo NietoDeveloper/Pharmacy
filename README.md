@@ -52,4 +52,6 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 
 ## Manuel Nieto
 
-##
+## NietoDeveloper
+
+### 2025
