@@ -30,8 +30,7 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Containerization**: Docker
+
 
 ---
 
