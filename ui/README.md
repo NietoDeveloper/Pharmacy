@@ -1,25 +1,7 @@
 # Pharmacy UI
 erface for users to interact with pharmacy-related 
 
-## Technologies
-
-Node.js: Runtime environment
-React: Frontend library for dynamic UI
-es verdad  
-## Installation
-
-
-Navigate to the project directory:cd pharmacy-ui
-
-
-Install dependencies:npm install
-
-
-Start the development server:npm run dev
-
-
-(Optional) Build and run with Docker:docker build -t pharmacy-ui .
-docker run -p 5173:5173 pharmacy-ui
+r run -p 5173:5173 pharmacy-ui
 
 
 
