@@ -32,10 +32,6 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 - **Backend**: Node.js, Express.js
 
 
----
-
-**🛠️ OTHER TOOLS**
-
 - **Multer**: Handles prescription uploads.
 - **JWT (JSON Web Tokens)**: Secures user authentication and manages sessions.
 
