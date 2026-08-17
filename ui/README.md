@@ -5,10 +5,8 @@ erface for users to interact with pharmacy-related
 
 Node.js: Runtime environment
 React: Frontend library for dynamic UI
-
+es verdad  
 ## Installation
-
-Clone the repository:git clone <https://github.com/NietoDeveloper/Pharmacy/tree/main/ui>
 
 
 Navigate to the project directory:cd pharmacy-ui
