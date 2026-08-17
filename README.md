@@ -18,8 +18,7 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 - **🚪 Logout**: End the session securely.
 
 ### **🔒 Admin**
-- **Admin Authentication**: Secure login through an admin passphrase.
-- **📊 Dashboard**: Manage products (add, edit, delete).
+
 ## NietoDeveloper
 
 ### 2025
