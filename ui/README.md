@@ -5,16 +5,6 @@ erface for users to interact with pharmacy-related
 
 Node.js: Runtime environment
 React: Frontend library for dynamic UI
-Vite: Fast build tool for development
-Tailwind CSS: Utility-first CSS framework
-Docker: Containerization for consistent deployment
-
-## Features
-
-Responsive and intuitive user interface
-Product browsing and selection
-Clean design with Tailwind CSS
-Containerized setup for easy deployment
 
 ## Installation
 
