@@ -20,11 +20,6 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 ### **🔒 Admin**
 - **Admin Authentication**: Secure login through an admin passphrase.
 - **📊 Dashboard**: Manage products (add, edit, delete).
-
-
-- **Multer**: Handles prescription uploads.
-- **JWT (JSON Web Tokens)**: Secures user authentication and manages sessions.
-
 ## NietoDeveloper
 
 ### 2025
