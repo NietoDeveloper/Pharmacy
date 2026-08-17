@@ -15,4 +15,3 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 - **🛍️ Cart Management**: Users can add, edit, or delete products in their cart.
 - **📞 Contact Us**: A messaging system for user inquiries.
 - **📝 Checkout**: A page for uploading prescriptions.
-- **🚪 Logout**: End the session securely.
