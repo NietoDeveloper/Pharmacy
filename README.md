@@ -20,11 +20,6 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 ### **🔒 Admin**
 - **Admin Authentication**: Secure login through an admin passphrase.
 - **📊 Dashboard**: Manage products (add, edit, delete).
-- **📩 Message Management**: Access messages from users.
-- **🧾 Prescription Management**: Review uploaded prescriptions during checkout.
-
-- **Frontend**: React.js
-- **Backend**: Node.js, Express.js
 
 
 - **Multer**: Handles prescription uploads.
@@ -33,9 +28,6 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 2. **Docker Setup**: `docker-compose up --build`
 3. **Accessing the Application**: Once the containers are up, visit `localhost:3001` to access the app.
 
----
-
-## Manuel Nieto
 
 ## NietoDeveloper
 
