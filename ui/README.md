@@ -1,7 +1,5 @@
 # Pharmacy UI
-
-## Overview
-Pharmacy UI is the frontend of an application for managing pharmacy services. It provides a modern, responsive interface for users to interact with pharmacy-related 
+erface for users to interact with pharmacy-related 
 
 ## Technologies
 
