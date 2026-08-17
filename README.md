@@ -22,11 +22,6 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 - **📊 Dashboard**: Manage products (add, edit, delete).
 - **📩 Message Management**: Access messages from users.
 - **🧾 Prescription Management**: Review uploaded prescriptions during checkout.
-- **🚪 Logout**: End the session securely.
-
----
-
-**⚙️ TECHNOLOGIES USED**
 
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
