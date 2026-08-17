@@ -24,9 +24,6 @@ The Online Pharmacy Web App enables users to digitally explore and buy medicatio
 
 - **Multer**: Handles prescription uploads.
 - **JWT (JSON Web Tokens)**: Secures user authentication and manages sessions.
-1. **Clone the Repository**: `git clone <https://github.com/NietoDeveloper/Pharmacy>`
-2. **Docker Setup**: `docker-compose up --build`
-
 
 ## NietoDeveloper
 
