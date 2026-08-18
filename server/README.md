@@ -250,6 +250,3 @@ The **server** for the Pharmacy application. Built with **Node.js**, it exposes 
 server/
 ├── middleware/       # Auth guards, request validation, error handling
 ├── models/            # Database schemas (products, users, orders)
-├── prescriptions/       # Uploaded prescription storage
-└── routes/               # RESTful API endpoint definitions
-```
