@@ -291,5 +291,3 @@ flowchart LR
 
 <div align="center">
 
-| Layer | Technologies |
-|:------|:-------------|
