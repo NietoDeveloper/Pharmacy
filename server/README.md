@@ -206,11 +206,4 @@ This project is licensed under the **MIT License**.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=PHARMACY%20%E2%80%94%20SERVER&fontSize=56&fontColor=FFD700&fontAlignY=42&desc=⚡%20Node.js%20REST%20API%20%C2%B7%20Prescriptions%20%26%20Orders%20%C2%B7%20Dockerized&descAlignY=62&descColor=DCDCDC&animation=fadeIn" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=760&lines=%E2%9A%A1+RESTful+API+for+Products+%26+Orders;%F0%9F%A7%BE+Prescription+Upload+Handling;%F0%9F%94%92+JWT+Auth+%2B+Admin+Passphrase;%F0%9F%90%B3+Fully+Dockerized+Backend)](https://git.io/typing-svg)
-
-<br/>
-
-<p align="center">
-  <a href="https://nodejs.org/">
-    <img src="https://img.shields.io/badge/Backend-Node.
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=760&lines=%E2%9A%A1+RESTful+API+for+Products+%26+Orders;%F0%9F%A7%BE+Prescription+Upload+Handling;%F0%9F%94%92+JWT+Auth+%2B+Admin+Passphrase;%F0%9F%90%B3+Fully+Dockerized
