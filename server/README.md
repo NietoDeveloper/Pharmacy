@@ -333,10 +333,6 @@ npm install
 
 Create a `.env` file with your MongoDB connection string, JWT secret, and admin passphrase.
 
-**Step 5 — Start the server**
-
-```bash
-npm start
 ```
 
 **Step 6 — (Optional) Run with Docker**
