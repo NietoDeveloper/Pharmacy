@@ -253,10 +253,3 @@ server/
 ├── prescriptions/       # Uploaded prescription storage
 └── routes/               # RESTful API endpoint definitions
 ```
-
----
-
-## 🔄 Prescription & Order Flow
-
-```mermaid
-flowchart LR
