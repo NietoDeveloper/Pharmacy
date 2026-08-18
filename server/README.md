@@ -289,5 +289,3 @@ flowchart LR
 
 ## 🛠️ Technologies
 
-<div align="center">
-
