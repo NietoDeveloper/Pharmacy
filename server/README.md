@@ -325,7 +325,5 @@ cd server
 
 **Step 3 — Install dependencies**
 
-```bash
-npm install
-```
+
 
