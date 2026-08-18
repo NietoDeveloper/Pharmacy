@@ -204,5 +204,4 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=PHARMACY%20%E2%80%94%20SERVER&fontSize=56&fontColor=FFD700&fontAlignY=42&desc=⚡%20Node.js%20REST%20API%20%C2%B7%20Prescriptions%20%26%20Orders%20%C2%B7%20Dockerized&descAlignY=62&descColor=DCDCDC&animation=fadeIn" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=PHARMACY%20%E2%80%94%20SERVER&fontSize=56&fontColor=FFD700&fontAlignY=42&desc=⚡%20Node.
