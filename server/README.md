@@ -262,4 +262,3 @@ server/
 flowchart LR
     A([👤 User]) -->|Checkout| B[Routes]
     B --> C[Middleware]
-    C -->|Auth Check| D{JWT Valid?}
