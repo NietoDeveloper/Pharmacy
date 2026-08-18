@@ -214,9 +214,7 @@ This project is licensed under the **MIT License**.
   <a href="https://nodejs.org/">
     <img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
   </a>
-  <a href="https://expressjs.com/">
-    <img src="https://img.shields.io/badge/Framework-Express.js-lightgrey?style=for-the-badge&logo=express"/>
-  </a>
+
   <a href="https://www.mongodb.com/">
     <img src="https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
   </a>
