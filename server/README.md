@@ -280,4 +280,4 @@ flowchart LR
 
 ## ⚙️ Core Modules
 
-- **Middleware:** Handles authentication guards, request validation, and error handling.
+- **Middleware:** Handles authentication guards, request 
