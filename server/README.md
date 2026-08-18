@@ -329,7 +329,3 @@ cd server
 npm install
 ```
 
-**StConf
-
-
-</div>
