@@ -218,13 +218,6 @@ This project is licensed under the **MIT License**.
 </p>
 
 
-
-</div>
-
----
-
-## 📋 Overview
-
 The **server** for the Pharmacy application. Built with **Node.js**, it exposes a RESTful API handling product, order, and user management, secured with JWT authentication and an admin passphrase, with dedicated support for prescription uploads.
 
 ---
