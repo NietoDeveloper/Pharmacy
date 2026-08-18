@@ -308,7 +308,3 @@ flowchart LR
 - **JWT (JSON Web Tokens):** Secures user authentication and manages sessions.
 
 ---
-
-## 🚀 Getting Started
-
-**Step 1 — Clone the repository**
