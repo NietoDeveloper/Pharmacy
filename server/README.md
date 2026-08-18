@@ -321,8 +321,6 @@ git clone https://github.com/NietoDeveloper/Pharmacy
 
 ```bash
 cd server
-```
- — Install dependencies**
 
 
 
