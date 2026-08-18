@@ -343,9 +343,6 @@ npm start
 
 ```bash
 docker-compose up --build
-```
-
-Once the containers are up, the API is available at `localhost:3001` (or as configured).
 
 
 </div>
