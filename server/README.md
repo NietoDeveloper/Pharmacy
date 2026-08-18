@@ -303,5 +303,3 @@ flowchart LR
 ---
 
 ## 🧰 Other Tools
-
-- **Multer:** Handles prescription file uploads.
