@@ -329,8 +329,7 @@ cd server
 npm install
 ```
 
-**StConfigure enviro variables**
-
+**StConf
 
 
 </div>
