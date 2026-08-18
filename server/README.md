@@ -261,4 +261,3 @@ server/
 ```mermaid
 flowchart LR
     A([👤 User]) -->|Checkout| B[Routes]
-    B --> C[Middleware]
