@@ -263,5 +263,3 @@ flowchart LR
     A([👤 User]) -->|Checkout| B[Routes]
     B --> C[Middleware]
     C -->|Auth Check| D{JWT Valid?}
-    D -->|Yes| E[Controller Logic]
-    D -->|No| F[401 · Unauthorized]
