@@ -293,4 +293,3 @@ flowchart LR
 
 | Layer | Technologies |
 |:------|:-------------|
-| 🏃 **Runtime** | Node.js |
