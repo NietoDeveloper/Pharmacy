@@ -265,4 +265,3 @@ flowchart LR
     C -->|Auth Check| D{JWT Valid?}
     D -->|Yes| E[Controller Logic]
     D -->|No| F[401 · Unauthorized]
-    E -->|Store File| G[prescriptions/]
