@@ -214,9 +214,3 @@ This project is licensed under the **MIT License**.
   <a href="https://nodejs.org/">
     <img src="https://img.shields.io/badge/Backend-Node.
 
-## 🗂️ Project Structure
-
-```text
-server/
-├── middleware/       # Auth guards, request validation, error handling
-├── models/            # Database schemas (products, users, orders)
