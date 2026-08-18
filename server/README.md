@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=PHARMACY%20%E2%80%94%20SERVER&fontSize=56&fontColor=FFD700&fontAlignY=42&desc=⚡%20Node.js%20REST%20API%20%C2%B7%20Prescriptions%20%26%20Orders%20%C2%B7%20Dockerized&descAlignY=62&descColor=DCDCDC&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=PHARMACY%20%E2%80%94%20SERVER&fontSize=54&fontColor=FFD700&fontAlignY=42&desc=⚡%20Node.js%20%2B%20Express%20REST%20API%20%C2%B7%20Dockerized%20Backend&descAlignY=62&descColor=DCDCDC&animation=fadeIn" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=760&lines=%E2%9A%A1+RESTful+API+for+Products+%26+Orders;%F0%9F%A7%BE+Prescription+Upload+Handling;%F0%9F%94%92+JWT+Auth+%2B+Admin+Passphrase;%F0%9F%90%B3+Fully+Dockerized+Backend)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=700&size=20&duration=2800&pause=900&color=FFD700&center=true&vCenter=true&width=760&lines=%E2%9A%A1+RESTful+API+for+Orders+%26+Products;%F0%9F%A7%BE+Prescription+File+Handling;%F0%9F%94%92+JWT+Auth+%2B+Admin+Passphrase;%F0%9F%90%B3+Fully+Dockerized+Backend)](https://git.io/typing-svg)
 
 <br/>
 
@@ -36,7 +36,7 @@
 
 ## 📋 Overview
 
-The **server** for the Pharmacy application. Built with **Node.js**, it exposes a RESTful API handling product, order, and user management, secured with JWT authentication and an admin passphrase, with dedicated support for prescription uploads.
+The **server** for the **Pharmacy** application. Built with **Node.js** and **Express.js**, it exposes RESTful endpoints for user authentication, product management, cart and order processing, and prescription file handling, backed by **MongoDB** and secured with **JWT** authentication and an admin passphrase.
 
 ---
 
@@ -44,42 +44,40 @@ The **server** for the Pharmacy application. Built with **Node.js**, it exposes 
 
 ```text
 server/
-├── middleware/       # Auth guards, request validation, error handling
-├── models/            # Database schemas (products, users, orders)
-├── prescriptions/       # Uploaded prescription storage
+├── middleware/       # JWT auth guards and request validation
+├── models/            # Mongoose schemas (Users, Products, Orders, Messages)
+├── prescriptions/       # Uploaded prescription files (Multer storage)
 └── routes/               # RESTful API endpoint definitions
 ```
 
 ---
 
-## 🔄 Prescription & Order Flow
+## 🔄 Order & Prescription Flow
 
 ```mermaid
 flowchart LR
-    A([👤 User]) -->|Checkout| B[Routes]
+    A([🌐 Client Request]) --> B[Routes]
     B --> C[Middleware]
-    C -->|Auth Check| D{JWT Valid?}
-    D -->|Yes| E[Controller Logic]
-    D -->|No| F[401 · Unauthorized]
-    E -->|Store File| G[prescriptions/]
-    E -->|Persist| H[(Models\nMongoDB)]
-    H -->|Review| I[🔒 Admin Dashboard]
+    C -->|JWT Validated| D[Business Logic]
+    D -->|CRUD| E[(Models\nProducts / Orders / Users)]
+    D -->|Upload| F[(Prescriptions\nMulter Storage)]
+    E -->|Response| G([📦 JSON Payload])
+    F -->|Reference| G
 
     style A fill:#FFD700,color:#000,stroke:#FFD700
-    style E fill:#0a0a0a,color:#FFD700,stroke:#FFD700
-    style F fill:#FF0000,color:#fff
-    style H fill:#47A248,color:#fff,stroke:#47A248
-    style I fill:#000,color:#FFD700,stroke:#FFD700
+    style D fill:#0a0a0a,color:#FFD700,stroke:#FFD700
+    style E fill:#47A248,color:#fff,stroke:#47A248
+    style G fill:#000,color:#FFD700,stroke:#FFD700
 ```
 
 ---
 
 ## ⚙️ Core Modules
 
-- **Middleware:** Handles authentication guards, request validation, and error handling.
-- **Models:** Define data structures for products, users, and orders.
+- **Middleware:** JWT authentication guards and request validation, including admin passphrase checks.
+- **Models:** Mongoose schemas for users, products, orders, and messages.
 - **Prescriptions:** Storage for prescription files uploaded during checkout.
-- **Routes:** Expose RESTful endpoints consumed by the Pharmacy UI.
+- **Routes:** RESTful endpoints consumed by the client and admin dashboard.
 
 ---
 
@@ -92,20 +90,22 @@ flowchart LR
 | 🏃 **Runtime** | Node.js |
 | ⚙️ **Framework** | Express.js |
 | 🗄️ **Database** | MongoDB |
+| 🔐 **Auth** | JWT (JSON Web Tokens), Admin Passphrase |
+| 📤 **File Uploads** | Multer |
 | 🐳 **Containerization** | Docker |
 
 </div>
 
 ---
 
-## 🧰 Other Tools
-
-- **Multer:** Handles prescription file uploads.
-- **JWT (JSON Web Tokens):** Secures user authentication and manages sessions.
-
----
-
 ## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- Docker (optional, for containerized setup)
+
+### Installation & Execution
 
 **Step 1 — Clone the repository**
 
@@ -127,7 +127,7 @@ npm install
 
 **Step 4 — Configure environment variables**
 
-Create a `.env` file with your MongoDB connection string, JWT secret, and admin passphrase.
+Create a `.env` file in the `server` directory with your MongoDB connection string, JWT secret, and admin passphrase.
 
 **Step 5 — Start the server**
 
@@ -141,7 +141,7 @@ npm start
 docker-compose up --build
 ```
 
-Once the containers are up, the API is available at `localhost:3001` (or as configured).
+Once the containers are up, the API is accessible on its configured port.
 
 ---
 
