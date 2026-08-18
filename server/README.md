@@ -353,12 +353,6 @@ Once the containers are up, the API is available at `localhost:3001` (or as conf
 
 **Manuel Nieto (NietoDeveloper)**
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
 
 
 </div>
