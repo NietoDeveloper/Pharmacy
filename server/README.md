@@ -277,6 +277,3 @@ flowchart LR
 ```
 
 ---
-
-## ⚙️ Core Modules
-
