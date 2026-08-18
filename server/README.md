@@ -284,5 +284,3 @@ flowchart LR
 - **Models:** Define data structures for products, users, and orders.
 - **Prescriptions:** Storage for prescription files uploaded during checkout.
 - **Routes:** Expose RESTful endpoints consumed by the Pharmacy UI.
-
--
