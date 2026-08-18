@@ -305,6 +305,3 @@ flowchart LR
 ## 🧰 Other Tools
 
 - **Multer:** Handles prescription file uploads.
-- **JWT (JSON Web Tokens):** Secures user authentication and manages sessions.
-
----
