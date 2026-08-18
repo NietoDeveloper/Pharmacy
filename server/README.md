@@ -335,10 +335,8 @@ Create a `.env` file with your MongoDB connection string, JWT secret, and admin 
 
 ```
 
-**Step 6 — (Optional) Run with Docker**
+**Ste— (Optional) Run with Docker**
 
-```bash
-docker-compose up --build
 
 
 </div>
