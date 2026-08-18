@@ -212,15 +212,7 @@ This project is licensed under the **MIT License**.
 
 <p align="center">
   <a href="https://nodejs.org/">
-    <img src="https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  </a>
-
-</p>
-
-
-The **server** for the Pharmacy application. Built with **Node.js**, it exposes a RESTful API handling product, order, and user management, secured with JWT authentication and an admin passphrase, with dedicated support for prescription uploads.
-
----
+    <img src="https://img.shields.io/badge/Backend-Node.
 
 ## 🗂️ Project Structure
 
