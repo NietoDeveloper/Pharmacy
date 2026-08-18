@@ -267,4 +267,3 @@ flowchart LR
     D -->|No| F[401 · Unauthorized]
     E -->|Store File| G[prescriptions/]
     E -->|Persist| H[(Models\nMongoDB)]
-    H -->|Review| I[🔒 Admin Dashboard]
