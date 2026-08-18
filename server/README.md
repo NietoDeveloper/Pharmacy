@@ -282,4 +282,4 @@ flowchart LR
 
 - **Middleware:** Handles authentication guards, request validation, and error handling.
 - **Models:** Define data structures for products, users, and orders.
-- **Prescriptions:** Storage for prescription files uploaded during checkout.
+- **Prescriptions:** Storage for prescription files 
