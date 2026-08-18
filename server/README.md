@@ -296,5 +296,3 @@ flowchart LR
 | 🏃 **Runtime** | Node.js |
 | ⚙️ **Framework** | Express.js |
 | 🗄️ **Database** | MongoDB |
-| 🐳 **Containerization** | Docker |
-
