@@ -268,7 +268,3 @@ flowchart LR
     E -->|Store File| G[prescriptions/]
     E -->|Persist| H[(Models\nMongoDB)]
     H -->|Review| I[🔒 Admin Dashboard]
-
-    style A fill:#FFD700,color:#000,stroke:#FFD700
-    style E fill:#0a0a0a,color:#FFD700,stroke:#FFD700
-  
