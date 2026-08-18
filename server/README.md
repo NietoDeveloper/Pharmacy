@@ -285,7 +285,4 @@ flowchart LR
 - **Prescriptions:** Storage for prescription files uploaded during checkout.
 - **Routes:** Expose RESTful endpoints consumed by the Pharmacy UI.
 
----
-
-## 🛠️ Technologies
-
+-
