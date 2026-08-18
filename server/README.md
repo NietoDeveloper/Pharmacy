@@ -329,7 +329,7 @@ cd server
 npm install
 ```
 
-**Step 4 — Configure enviro variables**
+**StConfigure enviro variables**
 
 
 
