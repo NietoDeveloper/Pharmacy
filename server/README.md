@@ -298,8 +298,3 @@ flowchart LR
 | 🗄️ **Database** | MongoDB |
 | 🐳 **Containerization** | Docker |
 
-</div>
-
----
-
-## 🧰 Other Tools
