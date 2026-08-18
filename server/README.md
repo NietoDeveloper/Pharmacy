@@ -217,11 +217,7 @@ This project is licensed under the **MIT License**.
 
 </p>
 
-<p align="center">
-  <a href="https://github.com/NietoDeveloper/Pharmacy/tree/main/server">
-    <img src="https://img.shields.io/badge/📂_Source-NietoDeveloper%2FPharmacy%2Fserver-000000?style=for-the-badge&logo=github&logoColor=FFD700"/>
-  </a>
-</p>
+
 
 </div>
 
