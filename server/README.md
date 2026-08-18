@@ -329,9 +329,7 @@ cd server
 npm install
 ```
 
-**Step 4 — Configure environment variables**
-
-Create a `.env` file with your MongoDB connection string, JWT secret, and admin passphrase.
+**Step 4 — Configure enviro variables**
 
 
 
