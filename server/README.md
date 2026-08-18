@@ -274,6 +274,3 @@ flowchart LR
     style F fill:#FF0000,color:#fff
     style H fill:#47A248,color:#fff,stroke:#47A248
     style I fill:#000,color:#FFD700,stroke:#FFD700
-```
-
----
