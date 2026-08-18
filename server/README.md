@@ -319,8 +319,4 @@ git clone https://github.com/NietoDeveloper/Pharmacy
 
 **Step 2 — Navigate to the server directory**
 
-```bash
-cd server
-
-
 
