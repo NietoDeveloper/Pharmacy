@@ -315,6 +315,3 @@ flowchart LR
 
 ```bash
 git clone https://github.com/NietoDeveloper/Pharmacy
-```
-
-**Step 2 — Navigate to the server directory**
