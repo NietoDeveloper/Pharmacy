@@ -281,4 +281,3 @@ flowchart LR
 ## ⚙️ Core Modules
 
 - **Middleware:** Handles authentication guards, request validation, and error handling.
-- **Models:** Define data structures for products, users, 
